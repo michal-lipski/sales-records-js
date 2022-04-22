@@ -12,7 +12,7 @@ Każdy sprzedawca ma ustalony miesięczny plan sprzedażowy. Od sprzedaży któr
  
 |Plan sprzedażowy (Quota)|   Prowizja (Commission)|   Podatek (Tax) | 
 |-----|----------------------|-------------------------|
-| 11 000 |    5%        |                        19%|
+| 11 000 |    10%        |                        19%|
 
  
 *Przykład wyliczenia bonusu*
