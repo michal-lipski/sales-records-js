@@ -8,11 +8,12 @@ Bonus Calculator
 Zadanie polega na zaimplementowaniu funkcjonalności wyliczenia bonusu jaki otrzyma sprzedawca w danym roku.
 Każdy sprzedawca ma ustalony miesięczny plan sprzedażowy. Od sprzedaży która przekroczy plan dostaje bonus, wyliczony na podstawie prowizji, pomniejszony o podatek. Bonus roczny skład się z sumy bonusów za wszystkie miesiące w danym roku.
  
-*Przykładowa konfiguracja*
+*Konfiguracja*
  
 |Plan sprzedażowy (Quota)|   Prowizja (Commission)|   Podatek (Tax) | 
 |-----|----------------------|-------------------------|
 | 11 000 |    5%        |                        19%|
+
  
 *Przykład wyliczenia bonusu*
  
