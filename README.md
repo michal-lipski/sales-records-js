@@ -22,16 +22,16 @@ Każdy sprzedawca ma ustalony miesięczny plan sprzedażowy. Od sprzedaży któr
 |12 000    | 15 000 |    10% |                        10%|                0.0|
 |12 000    | 12 000|    10% |                    10%|                0.0|
  
-*Przykład zakładając plan sprzedażowy = 15 000*:
+*Przykład zakładając plan sprzedażowy = 15 000, prowizję 10% i podatek 10%*:
  
-|data|Sprzedaż|    Suma sprzedaży w danym miesiącu| Wyliczona podstawa do naliczenia bonusu w danym miesiącu|	 
-|---|-----|----------|------------|
-|25.03.2020| 1 000 | 1 000    | 0 |
-|01.04.2020| 5 000 | 5 000    | 0        |
-|10.04.2020| 6 000 | 11 000    | 0        |
-|15.05.2020| 6 000 | 17 000    | 2 000        |
-|03.06.2020| 20 000 | 20 000    | 5 000        |
+|data|Sprzedaż|    	 
+|---|-----|
+|25.03.2020| 1 000 |
+|01.04.2020| 5 000 |
+|10.04.2020| 6 000 |
+|15.05.2020| 10 000 |
+|03.06.2020| 20 000 |
 
-Wynikowy bonus za rok 2020 to 7 000 zł.
+Wynikowy bonus za rok 2020 to 540 zł.
   
  
