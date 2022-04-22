@@ -27,6 +27,7 @@ Każdy sprzedawca ma ustalony miesięczny plan sprzedażowy. Od sprzedaży któr
  
 |data|Sprzedaż|    	 
 |---|-----|
+|20.12.2019| 10 000 |
 |25.03.2020| 1 000 |
 |01.04.2020| 5 000 |
 |10.04.2020| 6 000 |
