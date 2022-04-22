@@ -5,10 +5,10 @@ Bonus Calculator
  
 ### Indywidualny bonus dla sprzedawcy
  
-Zadanie polega na zaimplementowaniu funkcjonalności do zapisu rejestru sprzedaży w celu wyliczenia bonusu jaki otrzyma sprzedawca w danym miesiącu.
-Każdy sprzedawca ma ustalony plan sprzedażowy. Od sprzedaży która przekroczy plan dostaje bonus, wyliczony na podstawie prowizji, pomniejszony o podatek: 
+Zadanie polega na zaimplementowaniu funkcjonalności wyliczenia bonusu jaki otrzyma sprzedawca w danym roku.
+Każdy sprzedawca ma ustalony miesięczny plan sprzedażowy. Od sprzedaży która przekroczy plan dostaje bonus, wyliczony na podstawie prowizji, pomniejszony o podatek. Bonus roczny skład się z sumy bonusów za wszystkie miesiące w danym roku.
  
-*Konfiguracja*
+*Przykładowa konfiguracja*
  
 |Plan sprzedażowy (Quota)|   Prowizja (Commission)|   Podatek (Tax) | 
 |-----|----------------------|-------------------------|
@@ -22,7 +22,7 @@ Każdy sprzedawca ma ustalony plan sprzedażowy. Od sprzedaży która przekroczy
 |12 000    | 15 000 |    10% |                        10%|                0.0|
 |12 000    | 12 000|    10% |                    10%|                0.0|
  
-*Przykład rejestru sprzedaży zakładając plan sprzedażowy = 15 000*:
+*Przykład zakładając plan sprzedażowy = 15 000*:
  
 |data|Sprzedaż|    Suma sprzedaży w danym miesiącu| Wyliczona podstawa do naliczenia bonusu w danym miesiącu|	 
 |---|-----|----------|------------|
@@ -31,5 +31,7 @@ Każdy sprzedawca ma ustalony plan sprzedażowy. Od sprzedaży która przekroczy
 |10.04.2020| 6 000 | 11 000    | 0        |
 |15.05.2020| 6 000 | 17 000    | 2 000        |
 |03.06.2020| 20 000 | 20 000    | 5 000        |
+
+Wynikowy bonus za rok 2020 to 7 000 zł.
   
  
